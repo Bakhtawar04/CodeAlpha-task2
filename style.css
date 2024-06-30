@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.container {
+  border: 1px solid #3a4452;
+  padding: 20px;
+  border-radius: 15px;
+  background: #3a4452;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+}
+
+input {
+  width: 100%;
+  border: 2px solid #ffffff;
+  padding: 10px;
+  margin: 5px 0;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  text-align: right;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  background: #525865;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #626b78;
+}
+
+.equal {
+  background-color: #14a6fb;
+}
+
+.equal:hover {
+  background-color: #0d8ae1;
+}
+
+.operator {
+  color: #eaee0a;
+}
+
+.operator:hover {
+  background-color: #525865;
+}
